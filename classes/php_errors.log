@@ -1,0 +1,52 @@
+[07-Feb-2019 16:29:46 UTC] PHP Fatal error:  Cannot declare class Playlist, because the name is already in use in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/src/Playlist.php on line 8
+[04-Mar-2019 23:01:27 UTC] PHP Fatal error:  Uncaught Error: Class 'APP' not found in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/bootstrap.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/cli-config.php(3): require_once()
+#1 /home/ubuntu/workspace/proyectoMVC/classes/vendor/bin/doctrine.php(55): require('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/proyectoMVC/classes/vendor/bin/doctrine(4): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/bootstrap.php on line 11
+[04-Mar-2019 23:02:22 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\app\App' not found in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/bootstrap.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/cli-config.php(3): require_once()
+#1 /home/ubuntu/workspace/proyectoMVC/classes/vendor/bin/doctrine.php(55): require('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/proyectoMVC/classes/vendor/bin/doctrine(4): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/bootstrap.php on line 12
+[04-Mar-2019 23:02:51 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\app\App' not found in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/bootstrap.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/cli-config.php(3): require_once()
+#1 /home/ubuntu/workspace/proyectoMVC/classes/vendor/bin/doctrine.php(55): require('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/proyectoMVC/classes/vendor/bin/doctrine(4): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/bootstrap.php on line 12
+[04-Mar-2019 23:02:56 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\app\App' not found in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/bootstrap.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/cli-config.php(3): require_once()
+#1 /home/ubuntu/workspace/proyectoMVC/classes/vendor/bin/doctrine.php(55): require('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/proyectoMVC/classes/vendor/bin/doctrine(4): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/bootstrap.php on line 12
+[04-Mar-2019 23:04:56 UTC] PHP Fatal error:  Uncaught Error: Undefined class constant 'user' in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/bootstrap.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/cli-config.php(3): require_once()
+#1 /home/ubuntu/workspace/proyectoMVC/classes/vendor/bin/doctrine.php(55): require('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/proyectoMVC/classes/vendor/bin/doctrine(4): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/bootstrap.php on line 14
+[04-Mar-2019 23:05:42 UTC] PHP Fatal error:  Uncaught Error: Undefined class constant 'user' in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/bootstrap.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/cli-config.php(3): require_once()
+#1 /home/ubuntu/workspace/proyectoMVC/classes/vendor/bin/doctrine.php(55): require('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/proyectoMVC/classes/vendor/bin/doctrine(4): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/bootstrap.php on line 14
+[04-Mar-2019 23:08:05 UTC] PHP Fatal error:  Uncaught Error: Undefined class constant 'user' in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/bootstrap.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/cli-config.php(3): require_once()
+#1 /home/ubuntu/workspace/proyectoMVC/classes/vendor/bin/doctrine.php(55): require('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/proyectoMVC/classes/vendor/bin/doctrine(4): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/bootstrap.php on line 14
+[04-Mar-2019 23:08:43 UTC] PHP Fatal error:  Cannot declare class izv\data\Usuario, because the name is already in use in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/src/Usuario.php on line 25
+[04-Mar-2019 23:18:20 UTC] PHP Fatal error:  Cannot declare class izv\data\Usuario, because the name is already in use in /home/ubuntu/workspace/proyectoMVC/classes/cli_doctrine/src/Usuario.php on line 26

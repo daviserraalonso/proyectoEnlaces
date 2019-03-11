@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<base href="{{ BASE }}" >
+	
+	<title>Maxim - Modern One Page Bootstrap Template</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link href="{{twigFolder}}css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="{{twigFolder}}css/style.css" rel="stylesheet">
+	<link href="{{twigFolder}}color/default.css" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	{% block head %}{% endblock %}
+	
+
+</head>
+
+<body>
+	<!-- navbar -->
+	<div class="navbar-wrapper">
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<!-- Responsive navbar -->
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</a>
+					<h1 class="brand"><a href="index.html">Maxim</a></h1>
+					{% block subtitle %}{% endblock %}
+					<!-- navigation -->
+					<nav class="pull-right nav-collapse collapse">
+						<ul id="menu-main" class="nav">
+							<li><a title="team" href="index/register">Register</a></li>
+							<li><a title="services" href="index/login">Sing In</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	{% block spacer %}{% endblock %}
+    {% block about %}{% endblock %}
+    {% block services %}{% endblock %}
+    {% block works %}{% endblock %}
+    {% block blog %}{% endblock %}
+    {% block contact %}{% endblock %}
+    
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="span6 offset3">
+					<ul class="social-networks">
+						<li><a href="#"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
+						<li><a href="#"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>
+						<li><a href="#"><i class="icon-circled icon-bgdark icon-dribbble icon-2x"></i></a></li>
+						<li><a href="#"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
+					</ul>
+					<p class="copyright">
+						&copy; Maxim Theme. All rights reserved.
+						<div class="credits">
+							Designed by <a href="https://bootstrapmade.com/">David Serrano Alonso</a>
+						</div>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
+	
+	<script src="{{twigFolder}}/js/jquery.js"></script>
+	<script src="{{twigFolder}}/js/jquery.scrollTo.js"></script>
+	<script src="{{twigFolder}}/js/jquery.nav.js"></script>
+	<script src="{{twigFolder}}/js/jquery.localScroll.js"></script>
+	<script src="{{twigFolder}}/js/bootstrap.js"></script>
+	<script src="{{twigFolder}}/js/jquery.prettyPhoto.js"></script>
+	<script src="{{twigFolder}}/js/isotope.js"></script>
+	<script src="{{twigFolder}}/js/jquery.flexslider.js"></script>
+	<script src="{{twigFolder}}/js/inview.js"></script>
+	<script src="{{twigFolder}}/js/animate.js"></script>
+	<script src="{{twigFolder}}/js/custom.js"></script>
+	<script src="{{twigFolder}}/contactform/contactform.js"></script>
+	<script src="{{twigFolder}}/adminPanel/js/ajax.js"></script>
+	{% block footer %}{% endblock %}
+
+</body>
+
+</html>

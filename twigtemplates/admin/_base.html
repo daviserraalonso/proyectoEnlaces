@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
+        <base href="{{ BASE }}" />
+        
+        <link rel="icon" href="{{ twigFolder }}images/bootstrap-solid.svg"/>
+
+        <title>Admin Panel</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="{{ twigFolder }}css/bootstrap.min.css" rel="stylesheet"/>
+
+        <!-- Custom styles for this template -->
+        <link href="{{ twigFolder }}css/dashboard.css" rel="stylesheet"/>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="{{ twigFolder }}js/ajax.js" defer></script>
+        
+        {% block head %}{% endblock %}
+        
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://dwse-scorpions.c9users.io/proyectoMVC/">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index/dologout">Sign Out</a>
+                        </li>
+                </ul>
+            </div>
+        </nav>
+        {% block content %}{% endblock %}
+        {% block footer %}{% endblock %}
+    </body>
+</html>

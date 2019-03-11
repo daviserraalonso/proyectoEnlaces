@@ -1,0 +1,52 @@
+{% extends '_base.html' %}
+
+{% block content %}
+    <div class="row">
+          <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="admin/category">
+                                <span data-feather="categorias"></span>
+                                Categorias
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+            <br/>
+            <br/>
+                <h2>Lista de links</h2>
+                <div>
+                   <table>
+                      <thead>
+                          <th>Id</th>
+                          <th>idCategoria</th>
+                          <th>href</th>
+                          <th>comentario</th>
+                      </thead>
+                        <tbody id="listaLink"></tbody>
+                        
+                    </table>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <form id="formularioInsertar" action="#">
+                    <label for="idCategoria"> Categoria</label>
+                    <input type="text" class="form-control" id="categoria" placeholder="Categoria" aria-label="Username" aria-describedby="basic-addon1">
+                    <br/>
+                    <label for="idCategoria"> Href</label>
+                    <input type="text" class="form-control" id="link" placeholder="link" aria-label="Username" aria-describedby="basic-addon1">
+                    <br/>
+                    <label for="comentario"> Comentario</label>
+                    <input type="text" class="form-control" id="comentario" placeholder="Comentario" aria-label="Username" aria-describedby="basic-addon1">
+                    <br/>
+                    <button type="button" id="insertarLink" class="btn btn-secondary">Insertar</button>
+                </form>
+                
+            </main>
+    </div>
+{% endblock %}
